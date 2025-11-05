@@ -71,6 +71,13 @@ L'API sera disponible sur `http://localhost:3000` par défaut.
 
 - `GET /animes/:id/seasons` — liste les saisons d'un anime.
 - `GET /animes/:id/seasons/:seasonNumber` — détail d'une saison.
+- `POST /animes/:id/seasons` — ajoute une saison.
+- `PUT /animes/:id/seasons/:seasonNumber` — modifie une saison.
+- `DELETE /animes/:id/seasons/:seasonNumber` — supprime une saison.
 - `GET /animes/:id/seasons/:seasonNumber/episodes/:episodeNumber` — récupère un épisode avec son lien vidéo.
+- `POST /animes/:id/seasons/:seasonNumber/episodes` — ajoute un épisode à une saison.
+- `PUT /animes/:id/seasons/:seasonNumber/episodes/:episodeNumber` — modifie un épisode.
+- `DELETE /animes/:id/seasons/:seasonNumber/episodes/:episodeNumber` — supprime un épisode.
+
 
 Chaque anime stocke également l'information `publishedBy` pour savoir qui l'a publié.
