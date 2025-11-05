@@ -79,4 +79,5 @@ L'API sera disponible sur `http://localhost:3000` par défaut.
 - `PUT /animes/:id/seasons/:seasonNumber/episodes/:episodeNumber` — modifie un épisode.
 - `DELETE /animes/:id/seasons/:seasonNumber/episodes/:episodeNumber` — supprime un épisode.
 
+
 Chaque anime stocke également l'information `publishedBy` pour savoir qui l'a publié.
